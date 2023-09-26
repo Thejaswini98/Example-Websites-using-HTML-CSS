@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Header</header>
+      <nav>Nav</nav>
+      <article>Main Content</article>
+      <aside>Sidebar</aside>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
+
+
+
+web editor : http://brackets.io/
+
+Image placeholder : http://lorempixel.com/ https://placehold.it/
+
+Dummy Text : http://www.blindtextgenerator.com/lorem-ipsum
+
+wireframe maker : https://www.gliffy.com/
+
+Google Fonts : https://fonts.google.com/
+
+Hosted Libraries : https://developers.google.com/speed/libraries/

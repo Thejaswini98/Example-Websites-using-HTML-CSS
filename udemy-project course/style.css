@@ -1,0 +1,133 @@
+@import "https://fonts.googleapis.com/css?family=Indie+Flower";
+body {
+  background-color: cadetblue;
+  font-family: "Indie Flower", cursive;
+}
+
+.brder {
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  padding: 10px 0;
+  clear: both;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  background-color: azure;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+#main {
+  width: 100%;
+}
+
+#first {
+  background-color: #ddd;
+  padding: 5px;
+}
+
+#second {
+  background-color: white;
+  padding: 5px;
+}
+
+footer {
+  clear: both;
+  background-color: #222;
+  text-align: center;
+  padding-top: 35px;
+  color: #ccc;
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    max-width: 1100px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    text-align: center;
+  }
+  body {
+    background-color: rgb(141, 94, 94);
+  }
+  nav {
+    float: left;
+    width: 20%;
+  }
+  #main {
+    float: right;
+    width: 80%;
+  }
+  nav li {
+    display: block;
+    padding: 10px 0px;
+    width: 90%;
+  }
+  nav {
+    padding: 0px;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  #first {
+    width: 48%;
+    float: left;
+  }
+  #second {
+    width: 48%;
+    float: right;
+  }
+}
+
+* {
+  /* This box-sizing will update the elements 
+  to be 100% across including inner element sizes */
+  /* box-sizing: border-box; */
+  /* border: 2px solid black; */
+}
+
+/* We use clear becz any content added after image
+  is going to be unaffected by float */
+
+/* >* symbol  is also called wild card will
+automatically select all the children that are
+directly descendents*/
